@@ -6,9 +6,9 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 	@hasSection('title')
-		<title>@yield('title') - Tujuh Karya Sinergi</title>
+		<title>@yield('title') - Bedjo Multi Kreasi</title>
 	@else
-		<title>Tujuh Karya Sinergi</title>
+		<title>Bedjo Multi Kreasi</title>
 	@endif
 
 	<meta content="" name="description">

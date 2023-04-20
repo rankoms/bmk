@@ -62,22 +62,24 @@
 							<h1>3</h1>
 						</div>
 					</div>
-					<div class="col-lg-12">
+					<div class="offset-lg-2 col-lg-8 col-sm-12">
 						<img src="{{ asset('img/website/website_1.png') }}" alt="Website 1 BMK" style="max-width: 100%">
 					</div>
 				</div>
 				<div class="row content">
-					<div class="col-lg-12 p-4">
+					<div class="offset-lg-2 col-lg-8 col-sm-12 p-4">
 						<h2>Desain Kustom yang Menarik &
 							Fungsionalitas yang Sempurna</h2>
 						<h5 class="text-center">Tim kami akan bekerja sama dengan Anda untuk membuat desain website yang sesuai dengan
 							merek bisnis Anda dan menggambarkan nilai-nilai yang ingin disampaikan. Kami akan memastikan bahwa website Anda
 							terlihat profesional, menarik, dan mudah dinavigasi.</h5>
 					</div>
-					<div class="col-lg-12">
+					<div class="col-lg-8 offset-lg-2 col-sm-12">
 						<img src="{{ asset('img/website/website_2.png') }}" alt="Website 1 BMK" style="max-width: 100%">
 					</div>
-					<h5 class="text-center">Kami menawarkan harga yang kompetitif untuk solusi website yang kami tawarkan. Kami percaya
+					<h5 class="offset-lg-2 col-lg-8 col-sm-12 text-center pt-4">Kami menawarkan harga yang kompetitif untuk solusi
+						website
+						yang kami tawarkan. Kami percaya
 						bahwa bisnis kecil dan menengah juga membutuhkan website yang profesional untuk bersaing di pasar digital</h5>
 				</div>
 			</div>

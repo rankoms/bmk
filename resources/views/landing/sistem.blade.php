@@ -20,7 +20,7 @@
 			<div class="container" data-aos="fade-up">
 				<h3>{{ config('config_page.wording_about_h3') }}</h3>
 
-				<div class="row content">
+				<div class="row content mt-4 mb-4 pb-4 pt-4">
 					<div class="col-lg-12 p-4">
 						<h2>{{ $data['isi_h2_sistem'] }}</h2>
 						<h5 class="text-center">{{ $data['isi_h5_sistem'] }}</h5>
@@ -37,7 +37,7 @@
 						<img src="{{ asset('img/sistem/sistem_2.png') }}" alt="Mobile Scanner" style="max-width: 100%">
 					</div>
 				</div>
-				<div class="row content dashboard">
+				<div class="row content dashboard mt-4 mb-4 pb-4 pt-4">
 					<div class="col-lg-5 col-sm-12">
 						<h2 class="text-start p-0 dashboard-h2">Solusi Data Event</h2>
 						<div class="wrapper-dashboard position-relative">
@@ -72,14 +72,15 @@
 						<img src="{{ asset('img/sistem/sistem_3.png') }}" alt="Dashboard" style="max-width: 100%">
 					</div>
 				</div>
-				<div class="row content security">
+				<div class="row content security mt-4 mb-4 pb-4 pt-4">
 					<div class="col-lg-7 col-sm-12">
 						<img src="{{ asset('img/sistem/sistem_4.png') }}" alt="Dashboard" style="max-width: 100%">
 					</div>
 					<div class="col-lg-5 col-sm-12">
-						<h2 class="p-0 text-start">Security CCTV Event
+						<h2 class="p-0 text-lg-start text-sm-center">Security CCTV Event
 						</h2>
-						<h5>Membantu meningkatkan pengalaman peserta acara dengan memantau keramaian dan antrean di lokasi acara. Hal ini
+						<h5 class="p-0 text-lg-start text-sm-center">Membantu meningkatkan pengalaman peserta acara dengan memantau
+							keramaian dan antrean di lokasi acara. Hal ini
 							dapat membantu penyelenggara acara untuk mengatur lalu lintas dan memastikan bahwa peserta acara dapat mengakses
 							fasilitas dan layanan dengan mudah dan aman.
 						</h5>
@@ -87,8 +88,9 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12 offset-lg-2 col-lg-8">
-						<h2 class="text-center">Penyedia Manpower Event</h2>
-						<h5 class="text-center">Jangan Biarkan Event-Mu Kehilangan Momentum! Manpower Siap Membantu Mewujudkan Acaramu
+						<h2 class="p-0 text-lg-start text-sm-center">Penyedia Manpower Event</h2>
+						<h5 class="p-0 text-lg-start text-sm-center">Jangan Biarkan Event-Mu Kehilangan Momentum! Manpower Siap Membantu
+							Mewujudkan Acaramu
 							Menjadi Sukses dengan
 							Tim Profesional dan Berpengalaman. Yuk, Bermitra Bersama Manpower!</h5>
 					</div>
