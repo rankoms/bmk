@@ -12,10 +12,14 @@
 		</div>
 		<nav id="navbar" class="navbar">
 			<ul>
-				<li><a class="nav-link scrollto" href="#about">Percetakan</a></li>
-				<li><a class="nav-link scrollto" href="#services">Sistem Onground Event</a></li>
-				<li><a class="nav-link scrollto" href="#portfolio">Pembuatan Website</a></li>
-				<li><a class="nav-link scrollto" href="#contact">Pembuatan Furniture</a></li>
+				<li><a class="nav-link {{ Request::segment(1) == 'percetakan' ? 'active' : '' }}"
+						href="{{ route('percetakan') }}">Percetakan</a></li>
+				<li><a class="nav-link  {{ Request::segment(1) == 'sistem' ? 'active' : '' }}" href="{{ route('sistem') }}">Sistem
+						Onground Event</a></li>
+				<li><a class="nav-link {{ Request::segment(1) == 'website' ? 'active' : '' }}"
+						href="{{ route('website') }}">Pembuatan Website</a></li>
+				<li><a class="nav-link {{ Request::segment(1) == 'furniture' ? 'active' : '' }}"
+						href="{{ route('furniture') }}">Pembuatan Furniture</a></li>
 			</ul>
 			<i class="bi bi-list mobile-nav-toggle"></i>
 		</nav><!-- .navbar -->

@@ -95,7 +95,7 @@
 			e.preventDefault();
 			var formData = $(this).serialize();
 			$.ajax({
-				url: "",
+				url: "{{ route('contact.store') }}",
 				method: 'POST',
 				data: formData,
 				global: false,

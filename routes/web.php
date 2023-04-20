@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
@@ -18,3 +19,10 @@ use App\Http\Controllers\HomeController;
 //     return view('welcome');
 // });
 Route::get('/', [HomeController::class, 'index'])->name('index');
+
+Route::get('/percetakan', [HomeController::class, 'percetakan'])->name('percetakan');
+Route::get('/sistem', [HomeController::class, 'sistem'])->name('sistem');
+Route::get('/website', [HomeController::class, 'website'])->name('website');
+Route::get('/furniture', [HomeController::class, 'furniture'])->name('furniture');
+
+Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
