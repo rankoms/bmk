@@ -42,7 +42,7 @@
 			<div class="container" data-aos="fade-up">
 
 				<div class="row gy-4">
-					<div class="col-sm-12 col-lg-3 ">
+					<div class="col-sm-6 col-lg-3 ">
 						<a href="{{ route('percetakan') }}">
 							<div class="card-layanan">
 								<h5>Percetakan</h5>
@@ -53,7 +53,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-sm-12 col-lg-3">
+					<div class="col-sm-6 col-lg-3">
 						<a href="{{ route('sistem') }}">
 							<div class="card-layanan">
 								<h5>Sistem Onground Event</h5>
@@ -64,7 +64,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-sm-12 col-lg-3">
+					<div class="col-sm-6 col-lg-3">
 						<a href="{{ route('website') }}">
 							<div class="card-layanan">
 								<h5>Pembuatan Website</h5>
@@ -78,7 +78,7 @@
 						</a>
 
 					</div>
-					<div class="col-sm-12 col-lg-3">
+					<div class="col-sm-6 col-lg-3">
 						<a href="{{ route('furniture') }}">
 							<div class="card-layanan">
 								<h5>Pembuatan Furniture</h5>
@@ -102,7 +102,7 @@
 
 				<div class="row" data-aos="zoom-in">
 
-					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+					<div class="col-lg-2 col-md-6 col-sm-0 d-flex align-items-center justify-content-center">
 					</div>
 					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
 						<img src="{{ asset('img/client/client_1.png') }}" class="img-fluid" alt="Client">

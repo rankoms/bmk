@@ -30,7 +30,7 @@
 				</div>
 				<div class="row gy-4">
 
-					<div class="col-sm-12 col-lg-4">
+					<div class="col-sm-6 col-lg-4">
 						<div class="card">
 							<img src="{{ asset('img/teknologi/teknologi_1.png') }}" alt="Tiket">
 							<div class="wrapper-text">
@@ -39,7 +39,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-12 col-lg-4">
+					<div class="col-sm-6 col-lg-4">
 						<div class="card">
 							<img src="{{ asset('img/teknologi/teknologi_2.png') }}" alt="Tissue Tiket">
 							<div class="wrapper-text">
@@ -48,7 +48,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-12 col-lg-4">
+					<div class="col-sm-6 col-lg-4">
 						<div class="card">
 							<img src="{{ asset('img/teknologi/teknologi_3.png') }}" alt="ID Card">
 							<div class="wrapper-text">
@@ -64,7 +64,7 @@
 				</div>
 				<div class="row gy-4">
 					@foreach ($lainnya as $key => $value)
-						<div class="col-sm-12 col-lg-4">
+						<div class="col-sm-6 col-lg-4">
 							<div class="card">
 								<img src="{{ asset('img/lainnya/' . $value['image']) }}" alt="{{ $value['name'] }}">
 								<div class="wrapper-text">

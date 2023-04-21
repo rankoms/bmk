@@ -2554,9 +2554,10 @@ iframe {
     #hero {
         /* height: 350px; */
         text-align: center;
+        background-position: unset;
     }
     #hero .container {
-        padding-top: 105px;
+        padding-top: 0px;
     }
     #header-image {
         margin-top: 105px;
@@ -2723,5 +2724,18 @@ iframe {
     #header-image .wrapper-text {
         padding: 0;
         /* padding: 0 145px; */
+    }
+    #about .card-layanan img {
+        max-width: 100%;
+        max-height: 100px;
+    }
+    #about .card-layanan .wrapper-img {
+        height: 100px;
+    }
+    #about .card-layanan p {
+        height: 100px;
+    }
+    #about .card .wrapper-text {
+        font-size: 16px;
     }
 }

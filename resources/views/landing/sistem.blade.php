@@ -88,8 +88,8 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12 offset-lg-2 col-lg-8">
-						<h2 class="p-0 text-lg-start text-sm-center">Penyedia Manpower Event</h2>
-						<h5 class="p-0 text-lg-start text-sm-center">Jangan Biarkan Event-Mu Kehilangan Momentum! Manpower Siap Membantu
+						<h2 class="p-0 text-center">Penyedia Manpower Event</h2>
+						<h5 class="p-0 text-center">Jangan Biarkan Event-Mu Kehilangan Momentum! Manpower Siap Membantu
 							Mewujudkan Acaramu
 							Menjadi Sukses dengan
 							Tim Profesional dan Berpengalaman. Yuk, Bermitra Bersama Manpower!</h5>
