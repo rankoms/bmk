@@ -25,12 +25,12 @@
 
 
 		<!-- ======= About Us Section ======= -->
-		<section id="about" class="about">
+		<section id="about" class="about p-0">
 			<div class="container" data-aos="fade-up">
 				<h3>{{ config('config_page.wording_about_h3') }}</h3>
 
 				<div class="row content">
-					<div class="col-lg-12 p-4">
+					<div class="col-lg-12 p-4 pt-0">
 						<h2>Layanan BMK untuk solusi semua</h2>
 						<h5 class="text-center">Maksimalkan bisnis anda dengan solusi terbaik dari BMK</h5>
 					</div>
@@ -38,7 +38,7 @@
 
 			</div>
 		</section><!-- End About Us Section -->
-		<section id="about" class="about">
+		<section id="about" class="about p-0">
 			<div class="container" data-aos="fade-up">
 
 				<div class="row gy-4">

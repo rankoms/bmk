@@ -73,13 +73,13 @@
 					</div>
 				</div>
 				<div class="row content security mt-4 mb-4 pb-4 pt-4">
-					<div class="col-lg-7 col-sm-12">
+					<div class="col-lg-6 col-sm-12">
 						<img src="{{ asset('img/sistem/sistem_4.png') }}" alt="Dashboard" style="max-width: 100%">
 					</div>
-					<div class="col-lg-5 col-sm-12">
+					<div class="align-self-center col-lg-6 col-sm-12">
 						<h2 class="p-0 text-lg-start text-sm-center">Security CCTV Event
 						</h2>
-						<h5 class="p-0 text-lg-start text-sm-center">Membantu meningkatkan pengalaman peserta acara dengan memantau
+						<h5 class="p-0 text-lg-start text-sm-center pt-3">Membantu meningkatkan pengalaman peserta acara dengan memantau
 							keramaian dan antrean di lokasi acara. Hal ini
 							dapat membantu penyelenggara acara untuk mengatur lalu lintas dan memastikan bahwa peserta acara dapat mengakses
 							fasilitas dan layanan dengan mudah dan aman.
