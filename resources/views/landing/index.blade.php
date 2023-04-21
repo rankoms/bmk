@@ -98,7 +98,7 @@
 		<!-- ======= Clients Section ======= -->
 		<section id="clients" class="clients services">
 			<div class="container" data-aos="fade-up">
-				<h2 class="mb-4">Sponsor & Partners</h2>
+				<h2 class="mb-4">Client & Partners</h2>
 
 				<div class="row" data-aos="zoom-in">
 
@@ -128,5 +128,5 @@
 		integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-	@include('landing.footer')
+	{{-- @include('landing.footer') --}}
 @endsection

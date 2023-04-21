@@ -4,10 +4,7 @@
 		<div class="row">
 			<div class="col-lg-6 d-flex align-items-stretch p-0">
 				<div class="info">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.1447371783606!2d106.9968265170559!3d-6.225511537969303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c19f0213fe5%3A0x46e0c2f6fff4d965!2sJl.%20Bulevar%20Ahmad%20Yani%2C%20RT.006%2FRW.002%2C%20Marga%20Mulya%2C%20Kec.%20Bekasi%20Utara%2C%20Kota%20Bks%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1680365391398!5m2!1sen!2sid"
-						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade"></iframe>
+					{!! \config('config_page.iframe') !!}
 				</div>
 			</div>
 			<div class="col-lg-6 mt-5 mt-lg-0 align-items-stretch kiri">
@@ -20,18 +17,18 @@
 
 							<div class="email d-flex align-self-baseline">
 								<img src="{{ asset('img/contact/phone.svg') }}" alt="Email">
-								<p>1241234125 4124124</p>
+								<p>{{ \config('config_page.phone') }}</p>
 							</div>
 							<div class="email d-flex align-self-baseline pt-4">
 								<img src="{{ asset('img/contact/email.svg') }}" alt="Email">
-								<p>tks@tujuhkaryasinergi.com</p>
+								<p>{{ \config('config_page.email') }}</p>
 							</div>
 						</div>
 						<div class="col-lg-6 pt-4">
 
 							<div class="address d-flex align-self-baseline">
 								<img src="{{ asset('img/contact/address.svg') }}" alt="Address">
-								<p>Jl. Bulevar Ahmad Yani Kav. K.01 Margamulya, Bekasi Utara, Kota Bekasi Jawa Barat</p>
+								<p>{{ \config('config_page.alamat') }}</p>
 							</div>
 						</div>
 					</div>
@@ -60,12 +57,12 @@
 
 
 		<div class="row padding-contact">
-			<div class="col-lg-6 col-sm-12 d-flex align-items-center">
+			<div class="col-lg-12 col-sm-12 d-flex align-items-center">
 				<img src="{{ asset('logo.png') }}" alt="Logo BMK" style="max-width: 100%" class="me-4 logo">
 				<h5 class="ms-4">Kami berkomitmen untuk memberikan solusi teknologi yang inovatif, handal, dan mudah digunakan.
 				</h5>
 			</div>
-			<div class="col-lg-3 col-sm-6 text-center">
+			{{-- <div class="col-lg-3 col-sm-6 text-center">
 				<a href="" class="d-block">Company</a>
 				<a href="" class="d-block">About</a>
 			</div>
@@ -94,7 +91,9 @@
 						<i class="bi bi-instagram"></i>
 					</a>
 				</div>
-			</div>
+			</div> --}}
+
+			@include('landing.footer')
 		</div>
 
 	</div>

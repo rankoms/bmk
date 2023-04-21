@@ -1855,7 +1855,6 @@ section {
 
 #footer {
     font-size: 14px;
-    background: #fff;
 }
 
 #footer .footer-newsletter {
@@ -2009,8 +2008,7 @@ section {
 #footer .footer-bottom {
     padding-top: 27px;
     padding-bottom: 27px;
-    color: #4B5D68;
-    background: #fff;
+    color: #181433;
 }
 
 #footer .copyright {
@@ -2536,7 +2534,9 @@ iframe {
 }
 
 .padding-contact {
-    padding: 105px;
+    padding: 90px 300px 0px;
+    background: linear-gradient(180deg, rgba(255, 248, 239, 0.57) 39.06%, rgba(255, 204, 143, 0.25) 100%);
+    text-align: center;
 }
 
 .padding-contact .logo {
