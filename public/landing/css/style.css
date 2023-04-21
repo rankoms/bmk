@@ -2552,7 +2552,8 @@ iframe {
 
 @media (max-width: 767px) {
     #hero {
-        /* height: 350px; */
+        height: auto;
+        padding-top: 105px;
         text-align: center;
         background-position: unset;
     }
