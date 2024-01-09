@@ -24,5 +24,7 @@ Route::get('/percetakan', [HomeController::class, 'percetakan'])->name('percetak
 Route::get('/sistem', [HomeController::class, 'sistem'])->name('sistem');
 Route::get('/website', [HomeController::class, 'website'])->name('website');
 Route::get('/furniture', [HomeController::class, 'furniture'])->name('furniture');
+Route::get('/tiketbersama', [HomeController::class, 'tiketbersama'])->name('tiketbersama');
+Route::get('/eventbersama', [HomeController::class, 'eventbersama'])->name('eventbersama');
 
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');

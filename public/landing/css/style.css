@@ -2069,6 +2069,7 @@ section {
     font-size: 42px;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 27px;
     padding: 0 91px;
     color: #000000;
     font-weight: 800;
@@ -2105,6 +2106,7 @@ section {
 
 #about .card-layanan .wrapper-img {
     height: 188px;
+    line-height: 188px;
 }
 
 #about .card-layanan img {
@@ -2371,7 +2373,85 @@ START EVENT
     display: block;
     line-height: 400px;
 }
+.bg-system-event-tiketbersama{
+    background-image: url('/img/tiketbersama/bg_1.png') !important;
+    height: 80vh !important;
+}
+.bg-system-etiket{
+    background-color: #FF6634;
+}
+#website #etiket{
+    position: relative;
+}
+#website #etiket .bg-etiket{
+    position: absolute;
+    width: 100%;
+}
+#website #etiket .wrapper-link{
+    
+    float: inline-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#website #etiket a{
+    background-color: #fff;
+    padding: 10px 41px;
+    color: #F15A29;
+    border-radius: 5px;
+}
 
+#etiket h2{
+    color: #fff !important;
+}
+#etiket h5{
+    color: #fff !important;
+}
+#header-image .img-logo{
+    height: 117px;
+    width: auto;
+}
+#main{
+    position: relative;
+}
+.pt-120{
+    padding-top: 120px !important;
+}
+.img-content-tiketbersama{
+    width: auto;
+    height: 400px;
+    z-index: 99999;
+    top: -200px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+@media (max-width: 575px) {
+    .img-content-tiketbersama{
+        height: 200px;
+        top: -100px;
+    }
+    .bg-system-event-tiketbersama{
+        height: 60vh !important;
+    }
+    .pt-120{
+        padding-top: 60px !important;
+    }
+    #website h5{
+        text-align: start !important;
+    }
+
+}
+#website img{
+    max-height: 400px;
+}
+.col-lg-20 {
+    flex: 0 0 auto;
+    width: 20%;
+}
 #header-image .wrapper-text {
     display: inline-block;
     vertical-align: middle;
@@ -2385,7 +2465,7 @@ START EVENT
     font-weight: 800;
     font-size: 42px;
     text-align: center;
-    letter-spacing: -0.03em;
+    /* letter-spacing: -0.03em; */
     color: #FFFFFF;
 }
 
@@ -2395,7 +2475,7 @@ START EVENT
     font-weight: 400;
     font-size: 24px;
     text-align: center;
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
     color: #FFFFFF;
     margin-top: 12px;
     padding: 0 100px;
@@ -2418,7 +2498,7 @@ START EVENT
     font-weight: 800;
     font-size: 24px;
     text-align: center;
-    letter-spacing: -0.03em;
+    /* letter-spacing: -0.03em; */
     color: #000000;
 }
 
@@ -2464,7 +2544,7 @@ START EVENT
     font-size: 20px;
     /* or 150% */
     text-align: center;
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
     color: #64607D;
 }
 
@@ -2477,7 +2557,7 @@ START EVENT
     font-style: normal;
     font-weight: 800;
     font-size: 22px;
-    letter-spacing: -0.03em;
+    /* letter-spacing: -0.03em; */
     color: #000000;
 }
 
