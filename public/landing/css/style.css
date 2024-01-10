@@ -2377,8 +2377,15 @@ START EVENT
     background-image: url('/img/tiketbersama/bg_1.png') !important;
     height: 80vh !important;
 }
+.bg-system-event-eventbersama{
+    background-image: url('/img/eventbersama/bg_1.png') !important;
+    height: 80vh !important;
+}
 .bg-system-etiket{
     background-color: #FF6634;
+}
+.bg-system-hardware-scanner{
+    background-color: #0068C8;
 }
 #website #etiket{
     position: relative;
@@ -2393,6 +2400,14 @@ START EVENT
     margin-top: 30px;
     margin-bottom: 30px;
 }
+#website #etiket .wrapper-link p{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope';
+    margin-bottom: 7px;
+    text-align: left;
+}
 #website #etiket a{
     background-color: #fff;
     padding: 10px 41px;
@@ -2405,6 +2420,9 @@ START EVENT
 }
 #etiket h5{
     color: #fff !important;
+}
+.bg-none{
+    background: none !important;
 }
 #header-image .img-logo{
     height: 117px;
@@ -2434,7 +2452,7 @@ START EVENT
         height: 200px;
         top: -100px;
     }
-    .bg-system-event-tiketbersama{
+    .bg-system-event-tiketbersama,.bg-system-event-eventbersama{
         height: 60vh !important;
     }
     .pt-120{
@@ -2522,7 +2540,8 @@ START EVENT
     height: 50px;
     left: 0;
     top: 5px;
-    background: #F7941D;
+    background: #005DB2;
+    border-radius: 5px;
 }
 
 .dashboard .wrapper-dashboard .title {

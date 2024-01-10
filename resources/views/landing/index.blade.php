@@ -68,7 +68,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-20">
-                        <a href="{{ route('sistem') }}">
+                        <a href="{{ route('eventbersama') }}">
                             <div class="card-layanan">
                                 <h5>Sistem Onground Event</h5>
                                 <div class="wrapper-img">
