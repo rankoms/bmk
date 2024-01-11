@@ -141,7 +141,7 @@ class HomeController extends Controller
 
             'isi_h2_seating' => 'Fitur Seating',
             'isi_h5_seating' => 'Nikmati kemudahan sistem e-tiket terkini kami yang di distribusikan langsung ke email atau WhatsApp Anda. Pengalaman beli tiket lebih cepat, lebih modern, dan lebih praktis.',
-            'link_applestore' => '',
+            'link_applestore' => 'https://apps.apple.com/id/app/eventbersama/id6446818556',
             'link_playstore' => 'https://play.google.com/store/apps/details?id=com.eventbersama.eventbersama&hl=id&gl=US',
 
         ];
