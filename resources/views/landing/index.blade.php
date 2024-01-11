@@ -11,7 +11,7 @@
 				<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate"
 					data-aos="fade-up" data-aos-delay="200">
 					<h1>BMK berfokus pada pengembangan solusi teknologi & percetakan</h1>
-					<h5>Kami berkomitmen untuk memberikan solusi teknologi yang inovath5, handal, dan mudah digunakan.</h4>
+					<h5>Kami berkomitmen untuk memberikan solusi teknologi yang inovatif, handal, dan mudah digunakan.</h4>
 				</div>
 				<div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
 					<img src="{{ asset('img/hero/hero_0.png') }}" alt="Gambar">
@@ -102,8 +102,8 @@
 
 				<div class="row" data-aos="zoom-in">
 
-					<div class="col-lg-2 col-md-6 col-sm-0 d-flex align-items-center justify-content-center">
-					</div>
+					<!-- <div class="col-lg-2 col-md-6 col-sm-0 d-flex align-items-center justify-content-center">
+					</div> -->
 					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
 						<img src="{{ asset('img/client/client_1.png') }}" class="img-fluid" alt="Client">
 					</div>
@@ -115,6 +115,48 @@
 					</div>
 					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
 						<img src="{{ asset('img/client/client_4.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_5.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_6.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_7.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_8.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_9.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_10.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_11.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_12.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_13.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_14.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_15.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_16.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_17.png') }}" class="img-fluid" alt="Client">
+					</div>
+					<div class="col-lg-2 col-md-6 col-6 d-flex align-items-center justify-content-center">
+						<img src="{{ asset('img/client/client_18.png') }}" class="img-fluid" alt="Client">
 					</div>
 
 				</div>

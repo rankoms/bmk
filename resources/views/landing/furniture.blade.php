@@ -6,9 +6,9 @@
 
 	<section id="header-image" class="text-center align-items-center">
 		<div class="wrapper-text">
-			<h2>Menyediakan Produksi Percetakan</h2>
-			<h5>Kami menyediakan berbagai macam bahan cetak seperti banner, sticker, mug, lanyard, buku, majalah, brosur, kartu
-				nama, kalender, dan sebagainya.</h5>
+			<h2>Ruang Anda, Cerminan Kepribadian Anda</h2>
+			<h5>Perbarui rumah Anda dengan koleksi furniture berkualitas dari BMK!
+Temukan berbagai pilihan desain unik yang dapat disesuaikan dengan gaya Anda.</h5>
 		</div>
 
 	</section>
